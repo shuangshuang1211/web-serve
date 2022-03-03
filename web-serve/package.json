@@ -1,0 +1,17 @@
+{
+  "name": "web-serve",
+  "version": "1.0.0",
+  "description": "a web static serve",
+  "main": "main.js",
+  "bin": {
+    "webserve": "bin/exec.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.0.0"
+  }
+}
