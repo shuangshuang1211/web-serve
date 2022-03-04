@@ -33,4 +33,9 @@ program
   .name('webserve')
   .version(require('../package.json').version)
 
-program.parse(process.argv)
+const command = program.parse(process.argv)
+const Server = require('../main.js')
+const server = new Server(command)
+server.start(() => {
+  // console.log('qidongle ')
+})
